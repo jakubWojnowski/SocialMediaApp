@@ -1,0 +1,76 @@
+
+.Login{
+  height: 100vh;
+  background: linear-gradient( rgb(0, 45, 128, 0.26), rgba(30, 46, 63, 0.25));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+.Card{
+  width: 50%;
+  display: flex;
+  background-color: white;
+  border: 10px;
+  min-height: 600px;
+  .Left{
+    flex: 1;
+    background: linear-gradient(rgba(0, 45, 128, 0.26), rgba(30, 17, 30, 0.36)), url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600") center;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    h1{
+      font-size: 100px;
+      line-height: 100px;
+    }
+    p{}
+    span{
+      font-size: 20px;
+    }
+    button{
+      width: 50%;
+      padding: 10px;
+      border: none;
+      background-color: white;
+      color: rgb(0, 45, 128);
+      font-weight: bold;
+      cusrsor: pointer;
+    }
+  }
+  .Right{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+    h1{
+      color: #555;
+    }
+    form {
+      display: flex;
+        flex-direction: column;
+        gap: 20px;
+      input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        outline: none;
+      }
+
+      button {
+        padding: 10px;
+        border: none;
+        background-color: rgba(38, 85, 178, 0.64);
+        color: #555;
+        font-weight: bold;
+        cusrsor: pointer;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+}
+
