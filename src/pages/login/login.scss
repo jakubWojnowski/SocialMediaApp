@@ -12,6 +12,8 @@
   background-color: white;
   border: 10px;
   min-height: 600px;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
   .Left{
     flex: 1;
     background: linear-gradient(rgba(0, 45, 128, 0.26), rgba(30, 17, 30, 0.36)), url("https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600") center;
