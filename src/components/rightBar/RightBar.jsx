@@ -10,7 +10,7 @@ const RightBar = () => {
                 <div className="user">
                     <div className="userInfo">
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
-                        <span> Jakub Wojnowski </span>
+                        <span> John Jones </span>
                     </div>
                     <div className="buttons">
                         <button>follow</button>
@@ -20,7 +20,7 @@ const RightBar = () => {
                 <div className="user">
                     <div className="userInfo">
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
-                        <span> Jakub Wojnowski </span>
+                        <span> John Jones </span>
                     </div>
                     <div className="buttons">
                         <button>follow</button>
@@ -34,7 +34,7 @@ const RightBar = () => {
                     <div className="userInfo">
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                         <p>
-                            <span> Jakub Wojnowski </span>
+                            <span> Lara Smith  </span>
                             I won a car race today !!
 
                         </p>
@@ -46,8 +46,8 @@ const RightBar = () => {
                     <div className="userInfo">
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                         <p>
-                            <span> Jakub Wojnowski </span>
-                            I won a car race today !!
+                            <span> George Floyd  </span>
+                            I won a shop race !!
 
                         </p>
 
@@ -58,7 +58,7 @@ const RightBar = () => {
                     <div className="userInfo">
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                         <p>
-                            <span> Jakub Wojnowski </span>
+                            <span> Mark Zuckerberg  </span>
                             I won a car race today !!
 
                         </p>
@@ -75,7 +75,7 @@ const RightBar = () => {
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                       <div className="online" />
 
-                        <span> Jakub Wojnowski </span>
+                        <span> Mark Zuckerberg </span>
                     </div>
 
                 </div>
@@ -84,7 +84,7 @@ const RightBar = () => {
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                         <div className="online" />
 
-                        <span> Jakub Wojnowski </span>
+                        <span> George Floyd </span>
                     </div>
 
                 </div>
@@ -93,7 +93,7 @@ const RightBar = () => {
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                         <div className="online" />
 
-                        <span> Jakub Wojnowski </span>
+                        <span> Mark Mist </span>
                     </div>
 
                 </div>
@@ -102,7 +102,7 @@ const RightBar = () => {
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                         <div className="online" />
 
-                        <span> Jakub Wojnowski </span>
+                        <span> Will Willy </span>
                     </div>
 
                 </div>
@@ -111,7 +111,7 @@ const RightBar = () => {
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                         <div className="online" />
 
-                        <span> Jakub Wojnowski </span>
+                        <span> Lara Smith </span>
                     </div>
 
                 </div>
@@ -120,7 +120,7 @@ const RightBar = () => {
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                         <div className="online" />
 
-                        <span> Jakub Wojnowski </span>
+                        <span> John Jones </span>
                     </div>
 
                 </div>
@@ -129,7 +129,7 @@ const RightBar = () => {
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                         <div className="online" />
 
-                        <span> Jakub Wojnowski </span>
+                        <span> Bill pitbull </span>
                     </div>
 
                 </div>
@@ -138,7 +138,7 @@ const RightBar = () => {
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                         <div className="online" />
 
-                        <span> Jakub Wojnowski </span>
+                        <span> John Doe </span>
                     </div>
 
                 </div>
@@ -147,7 +147,7 @@ const RightBar = () => {
                         <img src="https://images.pexels.com/photos/3228727/pexels-photo-3228727.jpeg?auto=compress&cs=tinysrgb&w=1600" alt=""/>
                         <div className="online" />
 
-                        <span> Jakub Wojnowski </span>
+                        <span> lars smith</span>
                     </div>
 
                 </div>
