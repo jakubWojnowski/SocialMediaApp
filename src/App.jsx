@@ -14,7 +14,7 @@ import Home from "./pages/home/Home.jsx";
 import Profile from "./pages/profile/Profile.jsx";
 
 function App() {
-    const currentUser = false;
+    const currentUser = true;
     const Layout = () => {
         return(
             <div>
