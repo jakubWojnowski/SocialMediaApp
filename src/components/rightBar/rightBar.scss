@@ -9,6 +9,7 @@
     background-color: themed("bgSoftColor");
     color: themed("textColor");
 
+
     &::-webkit-scrollbar {
       display: none;
     }
@@ -22,6 +23,7 @@
         padding: 20px;
         margin-bottom: 20px;
         background-color: themed("backGroundColor");
+        border-radius: 20px ;
 
         span {
           color: themed("textColorSoft");
