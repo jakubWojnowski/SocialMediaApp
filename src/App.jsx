@@ -12,12 +12,18 @@ import NavBar from "./components/navBar/NavBar.jsx";
 import RightBar from "./components/rightBar/RightBar.jsx";
 import Home from "./pages/home/Home.jsx";
 import Profile from "./pages/profile/Profile.jsx";
+import {useContext} from "react";
+import {DarkModeContext} from "./context/DarkModeProvider.jsx";
+import {AuthenticationContext} from "./context/AuthenticationContext.jsx";
 
 function App() {
-    const currentUser = true;
+    const {currentUser} = useContext(AuthenticationContext);
+
+    const {darkMode} = useContext(DarkModeContext);
+    console.log(darkMode);
     const Layout = () => {
         return(
-            <div>
+            <div className={`theme-${darkMode ? "dark" : "light" }`}>
                 <NavBar/>
                 <div style={{display: "flex"}}>
                     <LeftBar/>

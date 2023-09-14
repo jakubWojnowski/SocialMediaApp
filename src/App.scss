@@ -2,3 +2,46 @@
   margin: 0;
   padding: 0;
 }
+$themes:(
+  light:(
+  textColor: black,
+  backGroundColor: White,
+  logoColor: darkblue,
+  bgSoftColor: #f6f3f3,
+  textColorSoft: #555,
+  borderColor:  lightgray
+),
+    dark:(
+    textColor: white,
+    backGroundColor: #1f1f1f,
+    logoColor: white,
+    bgSoftColor: #2f2f2f,
+    textColorSoft: #999,
+    borderColor:  #333
+    )
+);
+@mixin themify($themes){
+ @each $theme, $map in $themes{
+   .theme-#{$theme} & {
+     $theme-map: () !global;
+     @each $key, $subMap in $map {
+       $value: map-get(map-get($themes, $theme), "#{$key}");
+       $theme-map: map-merge(
+            $theme-map,
+            (
+            $key: $value
+            )
+        ) !global;
+
+     }
+        @content;
+        $theme-map: null !global;
+
+   }
+  }
+}
+@function themed($key){
+  @return map-get($theme-map, $key);
+}
+
+
